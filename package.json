@@ -1,0 +1,67 @@
+{
+  "name": "xxb-ui",
+  "version": "1.0.28",
+  "description": "A mobile terminal UI component library based on vue2.x",
+  "author": "xugang <371801080@qq.com>",
+  "main": "dist/xxb-ui.js",
+  "style": "dist/xxb-ui.base.css",
+  "private": false,
+  "keywords": [
+    "XXBUI",
+    "ui",
+    "xxb-ui",
+    "vue",
+    "vue.js",
+    "vue2.js",
+    "vue2 ui",
+    "vue2 components",
+    "mobile",
+    "mobile ui"
+  ],
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suifengcool/xxb-ui.git"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --content-base example/ --port 8080 --inline --hot --host 10.100.11.34 --config build/webpack.dev.conf.js",
+    "build:demand": "webpack --config build/webpack.demand.conf.js",
+    "build:all": "webpack --config build/webpack.all.conf.js",
+    "build": "npm run build:demand && npm run build:all"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "babel-core": "^6.22.1",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "fastclick": "^1.0.6",
+    "file-loader": "^1.1.11",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.3.2",
+    "gulp-less": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.1",
+    "json-loader": "^0.5.7",
+    "less": "^2.7.2",
+    "less-loader": "^2.2.3",
+    "postcss": "^6.0.23",
+    "string-replace-webpack-plugin": "^0.1.3",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
+    "vue": "^2.5.2",
+    "vue-loader": "^13.3.0",
+    "vue-router": "^3.0.1",
+    "vue-style-loader": "^3.0.1",
+    "vue-template-compiler": "^2.5.2",
+    "webpack": "^3.6.0",
+    "webpack-bundle-analyzer": "^2.9.0",
+    "webpack-dev-server": "^2.9.1",
+    "webpack-merge": "^4.1.0",
+    "vue-resource": "^1.5.1"
+  },
+  "license": "MIT"
+}

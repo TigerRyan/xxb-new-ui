@@ -1,0 +1,16 @@
+@import "./variables";
+@import "./reset";
+@import "./mixins";
+@import "./iconfont";
+
+
+.xxb-fix-ios-overflow-scrolling-bug {
+  /* 针对IOS 修复 css overflow scroll bug */
+  -webkit-overflow-scrolling: auto !important;
+}
+
+.xxb-fix-ios-prevent-scroll {
+  overflow: hidden !important;
+  position: fixed;
+  width: 100%;
+}
